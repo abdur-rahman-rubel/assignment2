@@ -176,4 +176,50 @@ header{
   top: 3000px;
   left: 900px;
  }
- 
+
+ /* facts section */
+ .facts-text{
+    padding-top: 150px;
+    padding-left: 100px;
+    
+
+ }
+ .facts-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    line-height: .01;
+ }
+ .facts-des{
+    width: 542px;
+    height: 52px;
+    font-size: 16px;
+    color: #727272;
+ }
+ .facts-list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+ .lists{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;  
+    padding-top: 20px;
+ }
+ .fact-image{
+    padding-left: 50px;
+ }
+ .score{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+text-align: center;
+ }
+ .img-tag{
+    color: #727272;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px,  
+ }
