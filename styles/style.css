@@ -1,18 +1,59 @@
-nav-container{
-    padding: 100px 100px;
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+     
+}
+.nav-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
     display: flex; 
     justify-content: space-between; 
-    justify-items: center; 
+    justify-items: center;
+    
 }
 .nav-heading{
     font-weight: 700;
     font-size: 24px;
-    color: #3A3A3A;
+    color: #131313;
 }
 .nav-items{
     display: flex;
     gap: 35px;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
 
+/* banner section */
+.banner-container{
+    text-align: center;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.banner-des{
+    font-size: 16px;
+    color: #727272;
+}
+.banner-btn{
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+}
+.banner-img{
+    padding-top: 50px;
+    padding-bottom: 50px;  
 }
