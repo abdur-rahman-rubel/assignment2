@@ -1,0 +1,18 @@
+nav-container{
+    padding: 100px 100px;
+    display: flex; 
+    justify-content: space-between; 
+    justify-items: center; 
+}
+.nav-heading{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.nav-items{
+    display: flex;
+    gap: 35px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
