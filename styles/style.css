@@ -4,6 +4,9 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* ---------------
+header section
+------------------ */
 header{
     background: rgba(255, 144, 14, 0.1);
      
@@ -30,7 +33,9 @@ header{
     color: #424242;
 }
 
-/* banner section */
+/* --------------
+banner section
+------------------ */
 .banner-container{
     text-align: center;
 }
@@ -58,7 +63,9 @@ header{
     padding-bottom: 50px;  
 }
 
-/* feature photo section */
+/* -------------------------
+feature photo section
+ ---------------------------*/
 
 .feature-photos-container{
     display: flex;
@@ -103,7 +110,9 @@ header{
     color: #727272;
 }
 
-/* <!-- feature list section --> */
+/* <!-- ---------------
+feature list section 
+----------------------> */
 .feature-list-and-image-container{   
     display: flex;
     justify-items: center;
@@ -177,7 +186,9 @@ header{
   left: 900px;
  }
 
- /* facts section */
+ /* ----------------
+ facts section
+ ------------------- */
  .facts-text{
     padding-top: 150px;
     padding-left: 100px;
@@ -222,4 +233,45 @@ text-align: center;
     text-align: center;
     font-weight: 600;
     font-size: 20px,  
+ }
+
+
+ /* ----------------
+ sponsor section
+ ------------------- */
+
+ .sponsor-text-part{
+    padding-top: 80px;
+    text-align: center;
+ }
+ .sponsor-heading{
+    line-height: .1;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+ }
+ .sponsor-des{ 
+    font-size: 16px;
+    color: #727272;
+ }
+
+ .sponsor-logos{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .logo{
+    color: #727272;
+ }
+ /* footer */
+ .footer{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
  }
