@@ -69,7 +69,7 @@ feature photo section
 
 .feature-photos-container{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 20px;
 }
 .photo-section{
@@ -89,6 +89,7 @@ feature photo section
     padding-top: 260PX;
     Width: 550px;
     Height: 300px;
+    width: 50%;
 }
 .text-heading{
     font-size: 45px;
@@ -139,7 +140,7 @@ feature list section
   }
 
   .list-des{
-    ont-size: 16px;
+    font-size: 16px;
     color: #727272;
     padding-bottom: 30px;
     padding-left: 100px;
@@ -212,6 +213,7 @@ feature list section
     justify-content: center;
     justify-content: space-evenly;
  }
+ 
  .lists{
     width: 150px;
     height: 150px;
@@ -224,9 +226,9 @@ feature list section
  }
  .score{
     font-weight: 600;
-font-size: 45px;
-color: #424242;
-text-align: center;
+    font-size: 45px;
+    color: #424242;
+    text-align: center;
  }
  .img-tag{
     color: #727272;
@@ -274,4 +276,47 @@ text-align: center;
     text-align: center;
     background: #FFF4E7;
     border-radius: 8px;
+ }
+
+
+ /* ---------------
+ Responsive/Bonus Section
+ --------------- */
+ @media screen and (max-width: 576px){
+    .nav-container, .nav-items{
+        flex-direction: column;       
+    }
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+    .photo-section{
+        width: 100%;
+        margin-right: 30px;
+        padding-left: 10px;       
+        grid-template-columns: repeat(1, 1fr);   
+ }
+ .text-section{
+    padding-top: 20px;
+    padding-bottom: 50px;
+ }
+ .feature-photos-container{
+    padding-top: 20px;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+ }
+ .list-section{
+    justify-content: center;
+    padding-top: 20px;
+}
+.facts-heading{
+    text-align: center;
+}
+.facts-list{
+    flex-direction: column;
+}
+.sponsor-logos{
+    flex-direction: column;
+}
  }
